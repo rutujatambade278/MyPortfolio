@@ -1,0 +1,89 @@
+/* css-15w3i02 {
+    padding: 100px 0px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+} */
+
+.ex{
+    align-items: normal;
+    text-align: right;
+    text-shadow: 0cap;
+}
+
+.features-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding-right: 20px; /* Adjust as needed */
+  }
+  
+  .image-container {
+    max-width: 100%;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-info {
+    flex: 10;
+  }
+  
+  .about-text {
+    text-align: left;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+}
+
+.about-heading{
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 30px;
+    text-shadow: 0cm;
+}
+
+/* border-color: var(--chakra-colors-chakra-border-color);
+    border-top-color: ;
+    border-right-color: ;
+    border-bottom-color: ;
+    border-left-color: ;
+    overflow-wrap: break-word;
+}
+
+width: 85%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: inline;                                          
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+width: 80%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+} */
